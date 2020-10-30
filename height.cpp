@@ -67,26 +67,6 @@ void create(int n)
      c++;
     }
 }
-/*
-void traverse(Node *p)
-{
-    if(p==NULL)
-        return;
-
-    if(p!=NULL)
-    {
-
-        traverse(p->l);
-
-        traverse(p->r);
-
-int x=p->data;
-vc.push_back(x);
-    }
-
-
-}
-*/
 int height(Node* root)
 {
     if(root==NULL)
@@ -100,7 +80,7 @@ int main()
   cin>>n;
   create(n);
  int h= height(root);
-//
+
 cout<<h;
 return 0;
 }
